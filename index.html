@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,11 @@
   <link href="styles.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
 </head>
+
 <body>
   <div id="app">
     <v-app>
-      
+
     </v-app>
   </div>
 
@@ -35,25 +37,7 @@
 
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
-  <script>
-    Vue.component('page', {
-      template: '#page'
-    })
-    new Vue({
-      el: '#app',
-      data: {
-        clipped: false,
-        drawer: true,
-        fixed: false,
-        items: [
-          { icon: 'bubble_chart', title: 'Inspire' }
-        ],
-        miniVariant: false,
-        right: true,
-        rightDrawer: false,
-        title: 'Vuetify.js'
-      }
-    })
-  </script>
+  <script src="js/index.js"></script>
 </body>
+
 </html>
